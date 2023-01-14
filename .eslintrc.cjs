@@ -13,7 +13,7 @@ module.exports = {
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaFeatures": {
-        "jsx": true,
+        "jsx": false,
     },
     "ecmaVersion": 12,
     "sourceType": "module",
@@ -29,6 +29,7 @@ module.exports = {
   },
   rules: {
     "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off",
     "@typescript-eslint/consistent-type-imports": "off"
   }
 };
