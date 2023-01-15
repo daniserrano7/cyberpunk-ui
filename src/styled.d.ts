@@ -18,6 +18,7 @@ declare module "styled-components" {
   export type ColorVariant = "primary" | "secondary" | "tertiary";
   interface ColorVariantTones {
     main: string;
+    bg?: string;
   }
 
   export type GlowVariant = keyof DefaultTheme["glow"];

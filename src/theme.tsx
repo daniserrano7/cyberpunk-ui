@@ -4,6 +4,7 @@ export const theme: DefaultTheme = {
   color: {
     primary: {
       main: "#e8615a",
+      bg: "#1e181e",
     },
     secondary: {
       main: "#2be4ea",
